@@ -1,0 +1,51 @@
+.navbar-fixed-top {
+  top: 0;
+  border-width: 0 0 1px;
+  border-bottom-width: 1px;
+  width: 100%;
+  position: fixed;
+  z-index: 99999;
+  transition: background-color 1s linear;
+
+}
+.scrolling {
+  background: #0A122A;
+  transition: background-color 1s linear;
+}
+
+.scrolling a {
+  color: #808080;
+}
+
+.notScrolling a{
+  color: #808080;
+}
+
+/* Add a black background color to the top navigation */
+.navbar {
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.navbar a {
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  margin-left: 2%;
+}
+
+/* Change the color of links on hover */
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+/* Add an active class to highlight the current page */
+.active {
+  text-decoration: underline;
+}
+
+/* Hide the link that should open and close the topnav on small screens */
+.navbar .icon {
+  display: none;
+}
