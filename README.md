@@ -8,4 +8,6 @@ The custom domain `ab-it.io` remains configured on `ab-itteam/abit-website`, whi
 
 To update this copy, copy `index.html`, `styles.css`, `script.js`, `favicon.svg`, `robots.txt`, `sitemap.xml` and `.nojekyll` from the portfolio repository. Retain the Google site-verification meta tag in this repository's `index.html`.
 
+Also copy the `assets/` directory, including the original playful mascot used by the redesigned homepage.
+
 `service-worker.js` retires the previous site's offline cache for returning visitors. The new website does not register a service worker. Legacy assets remain for compatibility with old cached pages.
